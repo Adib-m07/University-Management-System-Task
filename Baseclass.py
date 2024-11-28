@@ -1,5 +1,5 @@
 class Pupil:
-    def__init__(name,age,given_gender):
+    def __init__(name,age,given_gender):
         self.name=name
         self.age=age
         self.given_gender=given_gender
@@ -12,7 +12,7 @@ class Pupil:
         print(f{'name',name /n 'age', age/n 'given_gender', given_gender/name})
 
 class Student(Pupil):
-    def_init_(name,age,given_gender,student_id,course,grades):
+    def _init_(name,age,given_gender,student_id,course,grades):
         self.student_id=student_id
         self.course=course
         self.grades
